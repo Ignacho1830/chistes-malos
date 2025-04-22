@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chistes Malos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a los Chistes Malos</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#chistes">Chistes</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>¡Bienvenidos a la página de chistes malos!</h2>
+            <p>Un sitio para disfrutar y compartir los chistes más malos y divertidos creados por nosotros. ¿Te atreves a leerlos?</p>
+        </section>
+
+        <section id="chistes">
+            <h2>Chistes</h2>
+            <div id="chistes-list">
+                <div class="chiste">
+                    <p>¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter.</p>
+                    <button class="like-button">Me gusta</button>
+                    <button class="dislike-button">No me gusta</button>
+                </div>
+                <div class="chiste">
+                    <p>¿Qué le dice un jardinero a otro? ¡Disfrutemos mientras podamos!</p>
+                    <button class="like-button">Me gusta</button>
+                    <button class="dislike-button">No me gusta</button>
+                </div>
+                <div class="chiste">
+                    <p>¿Cómo se despiden los químicos? Ácido un placer.</p>
+                    <button class="like-button">Me gusta</button>
+                    <button class="dislike-button">No me gusta</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>¡Hola! Soy el creador de esta página web. Mi objetivo es compartir con todos ustedes los chistes más malos y divertidos que se nos ocurren. Esta página está hecha para que todos se diviertan y se relajen un rato.</p>
+            <p>En esta página podrás encontrar chistes, dejarnos tus opiniones, colaborar con ideas para nuevos chistes y mucho más. ¡Espero que disfrutes de esta locura!</p>
+
+            <h3>Colaboración</h3>
+            <p>Si te gustaría apoyar el proyecto y colaborar con nuevas ideas para chistes o mejorar la página, puedes contactarnos aquí. Todos tus comentarios son bienvenidos.</p>
+            <form>
+                <label for="nombre">Tu nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Tu email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+
+            <h3>Iniciar sesión</h3>
+            <form>
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" required>
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+                <button type="submit">Iniciar sesión</button>
+            </form>
+        </section>
+        <section id="donar" class="donar">
+    <h2>¿Te reíste con mis chistes malos?</h2>
+    <p>¡Podés apoyarme con una donación! Elegí el monto que quieras y ayudá a que esta página siga creciendo 🎉</p>
+    <a href="https://www.mercadopago.com.ar/nachotech18" target="_blank" class="donar-btn">Donar con Mercado Pago</a>
+</section>
+
+    </main>
+</body>
+</html>
