@@ -1,0 +1,123 @@
+/* Fondo degradado */
+body {
+    background: linear-gradient(to right, #FFCD4B, #FF6F61);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #ff6f61;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+/* Estilo para las secciones */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.donar {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.donar h2 {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.donar p {
+    color: #fff;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.donar-btn {
+    background: #00c4ff;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1em;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.donar-btn:hover {
+    background: #0097c9;
+}
+
+
+/* Formularios */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea, button {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #FFCD4B;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffc107;
+}
+
+/* Chistes */
+.chiste {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.like-button,
+.dislike-button {
+    margin-right: 10px;
+    background-color: #fff;
+    color: #000;
+}
